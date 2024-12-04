@@ -23,7 +23,7 @@ Este proyecto te permite reproducir videos de YouTube directamente en VLC a trav
 Clona este repositorio o descárgalo como archivo ZIP:
 
 ```bash
-git clone https://github.com/tu_usuario/play_in_vlc_server.git
+git clone https://github.com/Farwebsite/Play-Youtube-in-VLC.git
 cd play_in_vlc_server
 ```
 
