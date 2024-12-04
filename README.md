@@ -39,13 +39,16 @@ pip install -r requirements.txt
 ### 3. Configura las rutas:
 
 Edita el archivo play_in_vlc_server.py y asegúrate de que las rutas a los ejecutables de yt-dlp, vlc y ffmpeg sean correctas. Por ejemplo:
-
+---
 yt_dlp_path = r"C:\Program Files\VideoLAN\VLC\yt-dlp.exe"
 vlc_path = r"C:\Program Files\VideoLAN\VLC\vlc.exe"
 ffmpeg_path = r"C:\Program Files\ffmpeg\bin\ffmpeg.exe"
+---
 
 Notas:
-Si yt-dlp no está en la carpeta C:\Program Files\VideoLAN\VLC\, descárgalo desde su página oficial, crea la carpeta y colócalo allí.
+Si yt-dlp no está en la carpeta C:\Program Files\VideoLAN\VLC\
+descárgalo desde su página oficial, crea la carpeta y colócalo allí.
+
 Descarga FFmpeg desde su página oficial, descomprímelo y coloca sus binarios en la carpeta C:\Program Files\ffmpeg\bin.
 
 
