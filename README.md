@@ -152,6 +152,6 @@ git push origin mi_nueva_funcion
 Abre un pull request en GitHub.
 
 ### Licencia
-Este proyecto está licenciado bajo la [MIT License]((https://opensource.org/license/mit)
+Este proyecto está licenciado bajo la [MIT License](https://opensource.org/license/mit)
 
 
