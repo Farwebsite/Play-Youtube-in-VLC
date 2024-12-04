@@ -39,11 +39,13 @@ pip install -r requirements.txt
 ### 3. Configura las rutas:
 
 Edita el archivo play_in_vlc_server.py y asegúrate de que las rutas a los ejecutables de yt-dlp, vlc y ffmpeg sean correctas. Por ejemplo:
----
+
+```
 yt_dlp_path = r"C:\Program Files\VideoLAN\VLC\yt-dlp.exe"
 vlc_path = r"C:\Program Files\VideoLAN\VLC\vlc.exe"
 ffmpeg_path = r"C:\Program Files\ffmpeg\bin\ffmpeg.exe"
----
+
+```
 
 Notas:
 Si yt-dlp no está en la carpeta C:\Program Files\VideoLAN\VLC\
@@ -131,14 +133,13 @@ Esto iniciará el servidor en http://localhost:5000.
 Envía Videos a VLC: Accede a cualquier video de YouTube o en la página principal y haz clic en el botón derecho y despues selecciona "Enviar a VLC". El video se reproducirá automáticamente en VLC.
 
 
-###  Contribución
+###  Contribución:
 
 Realiza un fork del proyecto.
 
 Crea una rama para tus cambios:
 ```
 git checkout -b mi_nueva_funcion
-
 ```
 
 Envía tus cambios:
@@ -147,11 +148,10 @@ Envía tus cambios:
 git add .
 git commit -m "Añadí una nueva función"
 git push origin mi_nueva_funcion
-
 ```
 Abre un pull request en GitHub.
 
 ### Licencia
-Este proyecto está licenciado bajo la MIT License.
+Este proyecto está licenciado bajo la [MIT License]((https://opensource.org/license/mit)
 
 
